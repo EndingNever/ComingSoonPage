@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
 .App {
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
+
+.container{
+  display: flex;
+  height: 100vh;
+}
+
+.left{
+  background-image: url('/public/images/bg-pattern-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 60%;
+}
+
+.right{
+  background-image: url('/public/images/hero-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 40%;
+}
+
 
 .App-logo {
   height: 40vmin;
