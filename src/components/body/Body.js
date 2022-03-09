@@ -23,7 +23,7 @@ export default function Body() {
                     </p>
                     <div className='input-container'>
                         <input className='body-email' type="email" placeholder='Email Address' />
-                        <button>&gt;</button>
+                        <button><img src="/images/icon-arrow.svg" alt="" /></button>
                     </div>
                 </div>
             </div>
